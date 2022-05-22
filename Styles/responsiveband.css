@@ -1,11 +1,5 @@
 
 @media (max-width: 1024px) {
-   .members {
-       
-   }
-   
-   
-   
     .members-container {
         display: grid;
         padding: 0px;
