@@ -1,0 +1,41 @@
+
+@media (max-width: 1024px) {
+   .members {
+       
+   }
+   
+   
+   
+    .members-container {
+        display: grid;
+        padding: 0px;
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+}
+@media (max-width: 768px) {
+    .band-members {
+        /*top, right, bottom, left*/
+        padding: 100px 0px 0px 60px;
+        align-items: center;
+    }
+    .members-container {
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .heading-secondary {
+        display: flex;
+       font-size: 1.9rem;
+       padding-top: 30px;
+    }
+}
+
+@media (max-width: 432px) {
+    .band-members{
+        
+         /*top, right, bottom, left*/
+        padding: 100px 0px 0px 0px;
+    }
+}  

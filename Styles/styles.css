@@ -7,12 +7,6 @@ reset browser defaults */
     box-sizing: border-box;
 }
 
-
-/* BASE SETUP2 
-Setting font size to X pixels doesn't let users to increase or decrease the font size on their browsers
-Default font size = 16px -> 1rem = 10px -> 10px / 16px = 0.625px = 62.5%
-*/
-
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -327,7 +321,7 @@ h3{
 }
 
 .member-name {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     font-weight: 600;
     display: flex;
     padding-top: 2px;
@@ -336,6 +330,83 @@ h3{
 .band-member-img {
     display: inline-block;
     max-width: 50%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* Form Style */
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+   
+ #accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 13rem;
+}
+   
+#accordion .panel-heading{
+    padding: 0;
+    border-radius: 0;
+    text-align: center;
+    border: none;
+}
+   
+ #accordion .panel-title a{
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #0C0119;
+    transition: all 0.5s ease 0s;
+}
+   
+#accordion .panel-title a:hover{
+    background: rgba(12, 1, 25, 0.8);
+}
+   
+ #accordion .panel-body{
+    font-size: 14px;
+    color: #fff;
+    background: #29b0a0;
+    padding: 15px 20px;
+    line-height: 25px;
+    border: none;
+    position: relative;
+}
+   
+#accordion .panel-body:after{
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #29b0a0;
+}
+   .btn-primary {
+    font-size: 20px;
+    border: 2px black solid;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+
+}
+.btn-primary:hover {
+
+   }
+.button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+ul > li {
+   color: black;
+   font-size: 18px; 
+}
+li ~ p {
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica";
     padding-top: 10px;
+    letter-spacing: 1px;
 }
