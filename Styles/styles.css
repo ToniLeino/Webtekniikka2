@@ -333,7 +333,7 @@ h3{
     padding-bottom: 20px;
     padding-top: 20px;
 }
-/* Form Style */
+/* Accordion */
 a:hover,a:focus{
     text-decoration: none;
     outline: none;
@@ -392,12 +392,13 @@ a:hover,a:focus{
     color: black;
 
 }
-
+/*Sabatonin kaupan nappula*/
 .button {
  display: flex;
  justify-content: center;
  align-items: center;
 }
+/*Listan määritykset*/
 ul > li {
    color: black;
    font-size: 18px; 
