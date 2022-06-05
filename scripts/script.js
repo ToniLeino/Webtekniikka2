@@ -1,9 +1,10 @@
-
+//Annetaan ensin muuttumattomat arvot//
 const quoteText = document.getElementById('quote'),
     quoteTags = document.getElementById('quote-tags'),
     quoteAuthor = document.getElementById('author'),
     quoteButton = document.getElementById('quote-button');
-function randomQuote(){
+    //Tuo funktion API:sta//
+    function randomQuote(){
     fetch('https://api.quotable.io/random')
 	    .then(response => response.json())
 	    .then(data =>  {
@@ -12,6 +13,7 @@ function randomQuote(){
         
     });   
 }
+//Funktio jolla nappia painaessa pitäisi saada uusi quote//
 randomQuote();
 quoteButton.addEventListener('click', () => {
     randomQuote();
