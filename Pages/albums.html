@@ -12,6 +12,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href= "../Styles/styles.css">
+    <link rel="stylesheet" href= "../Styles/responsivealbum.css">
 </head>
 <body>
 <!--Nav bar -->
@@ -62,6 +63,7 @@
     </div>
   </nav>
 </div>
+<!--Collapse accordion-->
 <div class="container">
   <div class="row">
   <div class="col-md-offset-3 col-md-6">
@@ -126,6 +128,18 @@
   </a>
 </div>
 
+<div class="quote-container">
+   <div class="quote-box">
+     <h4>Quote of the day</h4>
+     <small id="quote-tags"></small>
+    <blockquote id="quote"></blockquote>
+    <small id="author"></small>
+    </div>
+  <div class="button2"  id="quote-button">
+    <button type="button" class="btn-primary">Paina tästä niin saat päivän sitaatin</button>
+    </div>
+</div> 
+
 <div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
     <footer>
         <div class="row my-5 justify-content-center py-5">
@@ -144,5 +158,6 @@
         </div>
     </footer>
 </div>
+<script src="/Script.js"></script> 
 </body>
 </html>

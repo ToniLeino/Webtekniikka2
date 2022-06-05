@@ -409,3 +409,29 @@ li ~ p {
     padding-top: 10px;
     letter-spacing: 1px;
 }
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#212529;
+    padding-top: 5rem;
+}
+.quote-container {
+    width: 100%;
+    padding-top: 5rem;
+}
+.quote-box {
+    padding-left: 25rem;
+    width: 75%;
+}
+#quote {
+    font-size: 2rem;
+    color: white;
+}
+h4 {
+    color: white;
+}
+#author {
+    color:white;
+    font-size: 15px;
+}

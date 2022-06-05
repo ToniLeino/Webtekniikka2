@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+    
+
+}
+@media (max-width: 768px) {
+    .panel-body {
+        
+    }
+}
+
+@media (max-width: 432px) {
+    .quote-container {
+        align-items: center;
+        justify-content: center;
+    }
+    .quote-box {
+        padding-left: 10px;
+    }
+}  
