@@ -508,3 +508,7 @@ h4 {
 div[class^="member"]  {
   color: white;
 }
+#quote-tags {
+  color: white;
+  font-size: 15px;
+}
