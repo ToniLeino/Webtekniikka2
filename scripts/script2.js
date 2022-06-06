@@ -11,15 +11,27 @@ Header.addEventListener('mouseout', function handleMouseOut() {
   Header.style.color = "black";
 });
 
-//Toivottavasti funktio joka vaihtaa tektiä sen päälle mentessä
+
 const text = document.getElementById("description");
 
-//  Tämä vaihtaa tektin väriä kun sen päälle mennään
+
 text.addEventListener('mouseover', function handleMouseOver() {
   text.style.color = 'black';
 });
 
-// palauttaa normaaliksi
+
 text.addEventListener('mouseout', function handleMouseOut() {
   text.style.color = "white";
+});
+
+const navi = document.getElementById("navi-link");
+
+
+navi.addEventListener('mouseover', function handleMouseOver() {
+  navi.style.color = 'pink';
+});
+
+
+navi.addEventListener('mouseout', function handleMouseOut() {
+  navi.style.color = "white";
 });
