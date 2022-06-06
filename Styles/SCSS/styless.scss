@@ -436,3 +436,19 @@ h4 {
     color:white;
     font-size: 15px;
 }
+@mixin theme($theme: Black) {
+    border: solid 5px ($theme);
+    
+
+}
+.container-text {
+    @include theme;
+}
+
+$base-color: black;
+$border-dark: rgba($base-color, 0.88);
+$padding: 5px;
+
+.member {
+  border: 1px solid $border-dark;
+}

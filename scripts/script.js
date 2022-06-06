@@ -1,3 +1,17 @@
+//Toivottavasti funktio joka vaihtaa tektiä sen päälle mentessä
+const Header = document.getElementById("primary-header");
+
+//  Tämä vaihtaa tektin väriä kun sen päälle mennään
+Header.addEventListener('mouseover', function handleMouseOver() {
+  Header.style.color = 'white';
+});
+
+// palauttaa normaaliksi
+Header.addEventListener('mouseout', function handleMouseOut() {
+  Header.style.color = "black";
+});
+
+
 //Annetaan ensin muuttumattomat arvot//
 const quoteText = document.getElementById('quote'),
     quoteTags = document.getElementById('quote-tags'),
@@ -18,3 +32,4 @@ randomQuote();
 quoteButton.addEventListener('click', () => {
     randomQuote();
 })
+
