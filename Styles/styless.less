@@ -1,0 +1,15 @@
+@width: 20px;
+@height: @width + 20px;
+
+#header {
+  width: @width;
+  height: @height;
+}
+
+.bordered {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.container-text {
+  .bordered();
+}
